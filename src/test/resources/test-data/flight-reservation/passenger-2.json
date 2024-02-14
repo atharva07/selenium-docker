@@ -1,0 +1,11 @@
+{
+    "firstName": "marshall",
+    "lastName": "mathers",
+    "email": "eminem@pop.com",
+    "password": "m&m",
+    "street": "456 main street",
+    "city": "detroit",
+    "zip": "300022",
+    "passengerCount": "2",
+    "expectedPrice": "$1169 USD"
+}

@@ -1,0 +1,11 @@
+{
+    "firstName": "barney",
+    "lastName": "stinson",
+    "email": "barney@pop.com",
+    "password": "swarley",
+    "street": "111 main street",
+    "city": "new jersy",
+    "zip": "304321",
+    "passengerCount": "4",
+    "expectedPrice": "$2338 USD"
+}

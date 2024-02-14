@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="flight-reservation" parallel="tests" threadCount="2">
+    <test name="passengers-count-1">
+        <!-- <parameter name="noOfPassengers" value="1" /> -->
+        <!-- <parameter name="expectedPrice" value="$584 USD" /> -->
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-1.json" />
+        <!-- <parameter name="browser" value="chrome" /> -->
+        <classes>
+            <class name="com.atharvahiwase07.tests.flightreservation.FlightReservationTest" />
+        </classes>
+    </test>
+
+    <test name="passengers-count-2">
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-2.json" />
+        <!-- <parameter name="browser" value="chrome" /> -->
+        <classes>
+            <class name="com.atharvahiwase07.tests.flightreservation.FlightReservationTest" />
+        </classes>
+    </test>
+
+    <test name="passengers-count-3">
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-3.json" />
+        <!-- <parameter name="browser" value="chrome" /> -->
+        <classes>
+            <class name="com.atharvahiwase07.tests.flightreservation.FlightReservationTest" />
+        </classes>
+    </test>
+
+    <test name="passengers-count-4">
+        <parameter name="testDataPath" value="test-data/flight-reservation/passenger-4.json" />
+        <!-- <parameter name="browser" value="chrome" /> -->
+        <classes>
+            <class name="com.atharvahiwase07.tests.flightreservation.FlightReservationTest" />
+        </classes>
+    </test>
+</suite>

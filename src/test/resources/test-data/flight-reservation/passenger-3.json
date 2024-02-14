@@ -1,0 +1,11 @@
+{
+    "firstName": "atharva",
+    "lastName": "hiwase",
+    "email": "atharva@pop.com",
+    "password": "atharva",
+    "street": "789 main street",
+    "city": "new york",
+    "zip": "300767",
+    "passengerCount": "3",
+    "expectedPrice": "$1753 USD"
+}
